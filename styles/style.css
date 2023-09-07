@@ -1,0 +1,31 @@
+html { /* html селектор, то что требуется изменить, все что между скобок это обьявление (правило)*/
+  font-size: 20px; /*font-size это свойство а px значения свойства и отвечает за размер в пикселях */ 
+  font-family: 'Comfortaa', cursive;
+  background-color: #000cd0; /*Изменение цвета фона*/
+}
+body {
+width: 600px; /* Размер тела в ширину*/
+margin: 0 auto; /* делит пространство поровну*/
+background-color: #006400;
+padding: 0 20px 20px 20px; /*Установка зоны контента сверху справа снизу слева*/
+border: 5px solid black; /*Установки рамки вокруг зоны контента*/
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #191970;
+  font-size: 60px;
+  text-align: center; /* Разположение текста по центру*/
+  text-shadow: 3px 3px 1px black; /* Установка тени 1 перемещение тени по горизонтали 2 по вертикале 3 размытие тени 4 цвет тени */
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+}
+p,
+li {
+  font-size: 16px;
+  line-height: 2; /* отступление между строчек*/
+  letter-spacing: 1px; /* ширина пробела */
+}
